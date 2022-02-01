@@ -1,19 +1,19 @@
 import Container from "./container";
 import cn from "classnames";
 
-export default function Alert({ preview }) {
+export default function Alert({ nopreview }) {
   return (
     <div
       className={cn("border-b", {
-        "bg-accent-7 border-accent-7 text-white": preview,
-        "bg-accent-1 border-accent-2": !preview,
+        "bg-accent-7 border-accent-7 text-white": nopreview,
+        "bg-accent-1 border-accent-2": !nopreview,
       })}
     >
       <Container>
         <div className="py-2 text-center text-sm">
-          {preview ? (
+        {nopreview ? (
             <>
-              This is page is showing draft content.{" "}
+              Earn a tradeable supporter token for our Climate Action NFT program .{" "}
               <a
                 href="/api/exit-preview"
                 className="underline hover:text-cyan duration-200 transition-colors"
@@ -24,16 +24,17 @@ export default function Alert({ preview }) {
             </>
           ) : (
             <>
-              This is page is showing published content.{" "}
+              Earn a tradeable supporter token for our Climate Action NFT program .{" "}
               <a
-                href="/api/preview"
+                href="/posts/climate-action-nft-program"
                 className="underline hover:text-cyan duration-200 transition-colors"
               >
                 Click here
               </a>{" "}
-              to enter preview mode!
+              to learn how.
             </>
           )}
+
         </div>
       </Container>
     </div>
