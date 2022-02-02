@@ -4,10 +4,23 @@ export default function Footer() {
   return (
     <footer className="bg-accent-1 border-t border-accent-2">
       <Container>
-        <div className="py-28 flex flex-col lg:flex-row items-center">
-          <h3 className="text-4xl lg:text-5xl font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2">
+
+
+
+
+
+      <iframe src="https://www.google.com/maps/d/embed?mid=1VDNpbrlEOJCZDjvuFYLX-pRGQbdBimlO&ehbc=2E312F" width="640" height="480"></iframe>
+
+
+
+        <div className="py-18 flex flex-col lg:flex-row items-center">
+          <img src="https://www.datocms-assets.com/62560/1643741142-mamawa0.png" />
+        </div>
+          <div className="py-18 flex flex-col lg:flex-row items-center">
+
+          <h5 className="text-4xl lg:text-5xl font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2">
             &copy;2022 Mamawatoto Eco School & SCD Hub
-          </h3>
+          </h5>
           <div className="flex flex-col lg:flex-row justify-center items-center lg:pl-4 lg:w-1/2">
             <a
               href="https://www.datocms.com/docs/next-js"
@@ -16,7 +29,7 @@ export default function Footer() {
               DatoCMS Documentation
             </a>
             <a
-              href="https://github.com/datocms/nextjs-demo"
+              href="https://github.com/biomassives/mamawatoto-eco-school-datocms"
               className="mx-3 font-bold hover:underline"
             >
               View on GitHub

@@ -23,7 +23,7 @@ export default function Intro() {
         
         {" / "}
         <a
-          href="/posts/verify-a-climate-nft"
+          href="/posts/verify-a-climate-action-nft"
           className="underline hover:text-success duration-200 transition-colors"
         >
           Verify</a>
