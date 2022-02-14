@@ -11,11 +11,6 @@ export default function Footer() {
 
       <iframe src="https://www.google.com/maps/d/embed?mid=1VDNpbrlEOJCZDjvuFYLX-pRGQbdBimlO&ehbc=2E312F" width="640" height="480"></iframe>
 
-
-
-        <div className="py-18 flex flex-col lg:flex-row items-center">
-          <img src="https://www.datocms-assets.com/62560/1643741142-mamawa0.png" />
-        </div>
           <div className="py-18 flex flex-col lg:flex-row items-center">
 
           <h5 className="text-4xl lg:text-5xl font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2">
