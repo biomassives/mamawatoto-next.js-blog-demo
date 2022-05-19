@@ -16,7 +16,7 @@ export default function Intro() {
         or
         {" "}
         <a
-          href="https://opensea.io/ecocommunity"
+          href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/26816042420120247421105394337960983148699154570615661063609347090276381884516"
           className="underline hover:text-success duration-200 transition-colors"
         >Buy
           </a>
