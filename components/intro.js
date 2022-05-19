@@ -16,7 +16,7 @@ export default function Intro() {
         or
         {" "}
         <a
-          href="/posts/buy-a-climate-nft"
+          href="https://opensea.io/ecocommunity"
           className="underline hover:text-success duration-200 transition-colors"
         >Buy
           </a>
